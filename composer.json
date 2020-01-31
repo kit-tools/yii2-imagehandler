@@ -1,0 +1,30 @@
+{
+    "name": "kit-tools/yii2-imagehandler",
+    "description": "A library for image processing for Yii2.",
+    "homepage": "https://github.com/kit-tools/yii2-imagehandler",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "yii 2",
+        "popover",
+        "image",
+        "extension",
+        "widget"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sergey Zimoglyadov",
+            "email": "wppdevelop@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kittools\\imagehandler\\": ""
+        }
+    }
+}
